@@ -39,6 +39,7 @@ Our analysis revealed several important insights about the ACE program’s effec
 - From 2019 to 2023, routes where ABLE was originally implemented eventually saw a decline in violations, showing that the program became effective after an adjustment period.
 
 - In 2024, total violations spiked dramatically. This was not a failure of the program itself, but rather the result of new violation types being added (double parking and bus stop standing) from the ACE program, which expanded the scope of enforcement.
+ - [Tableau Visual Link](https://public.tableau.com/app/profile/thomas.segal/viz/BookMTA/Dashboard1?publish=yes)
  - <img src="https://github.com/user-attachments/assets/e324e79c-f7b9-4850-a0a8-6b24d50d0f3f" alt="vioovertime" width="450">
 
 2. **Effectiveness varies by borough**
