@@ -1,131 +1,36 @@
-# Data Science Project Template with GitHub Pages (Jekyll Compatible)
+# DATATHON: Analyzing the Effectiveness and Equity of NYC’s Automated Camera Enforcement (ACE) Program
 
-This template helps you organize and publish data science projects using GitHub Pages. It supports clean coding practices, reproducibility, and storytelling with Jupyter notebooks, HTML reports, and interactive dashboards.
+## Introduction
+### What is the project about?
+- This project analyzes data from the MTA's Automated Camera Enforcement (ACE) program to understand its impact on New York City’s bus system. Using MTA Open Data, we explored questions related to bus speeds, violations, and route efficiency through an equity lens. The goal is to evaluate the program’s effectiveness and highlight areas for improvement.
+### Why does it matter?
+- This matters because ACE is designed to improve bus speeds and service reliability. At the same time, it raises questions about fairness: are its benefits distributed equitably across different routes and neighborhoods? By answering these questions with data, we can provide insights that inform more effective and inclusive transportation strategies.
+### Who are the stakeholders?
+- The stakeholders include the MTA Open Data Team and other transportation-related groups invested in service efficiency, policy design, and community impact.
+### Business Question
+- Are the benefits of the ACE program being effectively and fairly distributed across NYC bus routes?
 
-You can:
 
-* Develop and document your analysis in modular steps (fetching, cleaning, modeling, visualization).
-* Organize raw and processed data for reuse and clarity.
-* Automatically build and serve your project as a static website using GitHub Pages and Jekyll.
-* Share results via summaries, charts, dashboards, and blog-style posts.
+## Process
+1. Exploration – What we noticed first when looking at the data.
+- At first glance, ACE appeared ineffective because violations consistently increased from 2019 through 2025. If more tickets were being issued year after year, how could the program be considered successful? However, when we looked more closely, we found that this interpretation was misleading.
+- In the neighborhoods where ACE was first introduced (between 2019 and June 2024), violations eventually decreased after a period of adjustment. By 2024, the data showed a clear decline in violations, suggesting that the program was working. It simply required time before its effectiveness became visible.
 
----
+2. Analysis – How we broke down the data 
+- We began by gathering data from MTA Open Data and converting the larger datasets into databases to make them easier to query. From there, we performed joins between datasets, aggregated data to identify trends, and grouped values by borough, year, and route to generate filtered insights. This allowed us to compare ACE versus non-ACE routes, examine speed changes over time, and analyze violation trends across different neighborhoods.
 
-## ✅ Key Features
+3. Visualizations – Which types of charts/maps/tables we used and why.
+ - We used a combination of visualization techniques to understand and communicate our findings:
+   - Line charts to track trends in bus speeds and violations over time.
+   - Bar charts to compare bus routes and boroughs on metrics such as average speed and violation counts.
+   - Maps to visualize geographic differences and highlight which areas were most impacted.
+   - Scatterplots to explore the relationship between bus speed and violations, revealing clusters of routes where ACE was more or less effective.
+ - These visualizations allowed us to identify not just overall trends but also neighborhood-level differences in how ACE was working.
 
-* **Jupyter notebooks** for reproducible analysis workflows.
-* **Python modules** for reusable, maintainable code (`src/`).
-* **Data folders** for raw, interim, and final datasets.
-* **Dashboards and visuals** saved as HTML or images for easy sharing.
-* **Blog-ready structure** using Jekyll (`index.md`, `_config.yml`, etc).
-* **Environment files** for consistent Python environments.
-* **Deployable site** using GitHub Pages (Markdown or HTML homepage).
+4. Team Roles - This was a group project with three members:
+- **Thomas** focused on violations, showing that while older ACE routes eventually saw decreases, the 2024 expansion caused an overall spike due to new violation types.
+- **Thierno** analyzed bus speeds, confirming that ACE improves travel times overall, but unevenly across the city.
+- **Ayema** focused on equity, demonstrating that high-poverty areas—especially in the Bronx—were disproportionately impacted by higher violation counts without equivalent improvements in speed.
 
----
 
-## 📁 Project Layout Explained
 
-This template includes folders and files with specific purposes to keep your work clean, reproducible, and publishable:
-
-* **`README.md`**: Project overview and setup instructions (you’re reading it now).
-
-* **`index.md`**: The homepage for your GitHub Pages site, written in Markdown (optional: use `index.html` instead).
-
-* **`_config.yml`**: Configuration for Jekyll, including site title, theme, and markdown processing.
-
-* **`_posts/` and `_layouts/`**: Optional Jekyll directories if you want to write blog posts or customize layouts.
-
-* **`assets/`**: Static files like CSS, JavaScript, and images used in your site or dashboards.
-
-* **`environment.yml` / `requirements.txt`**: Define your Python environment for reproducibility with `conda` or `pip`.
-
-* **`data/`**: Structured storage for your datasets:
-
-  * `raw/`: Unmodified original data.
-  * `interim/`: Cleaned but not yet finalized data.
-  * `processed/`: Final datasets used in modeling and visualization.
-  * `external/`: Third-party or reference data.
-
-* **`database/`**: Optional directory for lightweight SQL databases or config files for database connections.
-
-* **`notebooks/`**: Jupyter notebooks that walk through your project stages:
-
-  * Data collection, cleaning, exploration, modeling, and visualization.
-
-* **`src/`**: Modular Python code organized by function:
-
-  * `data_fetch/`: Scripts for scraping, API calls, or data download.
-  * `data_cleaning/`: Data wrangling, QA, and transformations.
-  * `feature_engineering/`: Logic to create model-ready features.
-  * `modeling/`: Training and evaluating models.
-  * `visualization/`: Code to generate charts and plots.
-  * `dashboard/`: Code for interactive dashboards (e.g., Streamlit or Plotly Dash).
-  * `utils/`: Shared helper functions, config, or logging.
-
-* **`reports/`**: Final outputs and visual content:
-
-  * `figures/`: Static images for notebooks or reports.
-  * `dashboards/`: Exported HTML dashboards.
-  * `summary.md`: Final write-up or story—can be referenced by your homepage.
-
-* **`Makefile`**: (Optional) Automates common tasks like cleaning data, running models, or starting a dashboard.
-
----
-
-## 🚀 Getting Started
-
-1. **Clone this repo**
-
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-   ```
-
-2. **Set up your Python environment**
-   With conda:
-
-   ```bash
-   conda env create -f environment.yml
-   conda activate your-env-name
-   ```
-
-   Or with pip:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Start working**
-
-   * Add notebooks to `notebooks/`
-   * Write modular code in `src/`
-   * Save charts to `reports/figures/`
-   * Add summary to `reports/summary.md`
-   * Edit `index.md` to showcase your work
-
-4. **Publish with GitHub Pages**
-
-   * Push your repo to GitHub.
-   * In repo settings, enable GitHub Pages and set the source to `main` or `docs/` as needed.
-   * Your site will appear at `https://your-username.github.io/your-repo-name/`.
-
----
-
-## 📌 Tips
-
-* You can use either `index.md` or `index.html` as your site’s homepage.
-* You don’t need to use Jekyll posts or layouts unless you want a blog-style project.
-* Customize `_config.yml` to change your site title, theme, or GitHub Pages settings.
-* Keep your notebooks clean and reproducible using [nbdev](https://nbdev.fast.ai/) or [Jupytext](https://jupytext.readthedocs.io/en/latest/), if desired.
-
----
-
-## 🧠 Inspiration
-
-This structure is inspired by best practices from:
-
-* [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/)
-* [The Turing Way](https://the-turing-way.netlify.app/)
-* [GitHub Pages + Jekyll docs](https://docs.github.com/en/pages)
-
----
