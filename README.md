@@ -1,5 +1,7 @@
 # DATATHON: Analyzing the Effectiveness and Equity of NYC’s Automated Camera Enforcement (ACE) Program
 
+Link to video: https://youtu.be/2fcA3dohn8M
+
 ## Introduction
 ### What is the project about?
 - This project analyzes data from the MTA's Automated Camera Enforcement (ACE) program to understand its impact on New York City’s bus system. Using MTA Open Data, we explored questions related to bus speeds, violations, and route efficiency through an equity lens. The goal is to evaluate the program’s effectiveness and highlight areas for improvement.
