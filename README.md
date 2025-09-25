@@ -150,7 +150,12 @@ _Where is further research needed?_
 - _Decision-making transparency_: Research MTA reports, policy documents, or public hearings to better understand how they choose which routes to implement ACE on, and whether equity is a consideration. What factors do they prioritize when deciding where to implement ACE? Is it congestion, infrastructure, income, or other variables?
 
 
-## Connect with us! 
+## Connect with us!  <p align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWIyZGE3b3FzejZucmJ0NXJyZ3Bkb3dwN3lnNW40cGl0MXVua2ljdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tHIRLHtNwxpjIFqPdV/giphy.gif" 
+       alt="ACE Project Funny Gif" 
+       width="120" height="120"/>
+</p>
+
 - [Thierno Barry](https://www.linkedin.com/in/thierno-barry-333288284/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BP%2BbOZbM9QwCkyPoYBv9k3g%3D%3D)  
 - [Thomas Segal](https://www.linkedin.com/in/thomas-segal-093370369)  
 - [Ayema Qureshi](https://www.linkedin.com/in/ayema-qureshi-901287187)  
