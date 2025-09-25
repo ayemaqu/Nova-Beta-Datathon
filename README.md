@@ -138,3 +138,18 @@ _Where is further research needed?_
 
 - The project required narrowing down the focus, but there were many different approaches we could have taken. With more time, we could have explored additional angles such as ridership data, environmental impact, or longer-term outcomes.
 
+
+## Next Steps
+**With more time and resources, future analysis could:**
+
+- Conduct more _statistical testing_ to strengthen claims about the relationship between bus speeds and violations.
+- _Long-term impact_: Look at whether violations eventually decline on the 2024 expansion routes (like they did on the original routes) — it may just take more years of data.
+- _Decision-making transparency_: Research MTA reports, policy documents, or public hearings to better understand how they choose which routes to implement ACE on, and whether equity is a consideration. What factors do they prioritize when deciding where to implement ACE? Is it congestion, infrastructure, income, or other variables?
+
+
+## Connect with us! 
+- [Thierno Barry](https://www.linkedin.com/in/thierno-barry-333288284/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BP%2BbOZbM9QwCkyPoYBv9k3g%3D%3D)  
+- [Thomas Segal](https://www.linkedin.com/in/thomas-segal-093370369)  
+- [Ayema Qureshi](https://www.linkedin.com/in/ayema-qureshi-901287187)  
+
+✨ This project was a true team effort — each of us brought unique perspectives and skills that made the analysis stronger.  
