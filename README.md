@@ -1,4 +1,4 @@
-# DATATHON: Analyzing the Effectiveness and Equity of NYC’s Automated Camera Enforcement (ACE) Program
+# DATATHON: ACE Program Equity & Effectiveness Analysis
 
 Link to video: [Brief Overview](https://youtu.be/2fcA3dohn8M)
 
