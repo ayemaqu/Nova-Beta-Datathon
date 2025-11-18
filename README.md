@@ -4,7 +4,7 @@ Link to video: [Brief Overview](https://youtu.be/2fcA3dohn8M)
 
 Link to presentation: [Presentation By Nova Beta](https://www.canva.com/design/DAG0CSB8-uo/IsnAQps1iKK0EM4LO2rPeQ/edit?utm_content=DAG0CSB8-uo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-## Project team: - [Ayema Qureshi](https://www.linkedin.com/in/ayema-qureshi-901287187), [Thierno Barry](https://www.linkedin.com/in/thierno-barry-333288284/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BP%2BbOZbM9QwCkyPoYBv9k3g%3D%3D), [Thomas Segal](https://www.linkedin.com/in/thomas-segal-093370369) 
+## Project team (NOVA BETA): [Ayema Qureshi](https://www.linkedin.com/in/ayema-qureshi-901287187), [Thierno Barry](https://www.linkedin.com/in/thierno-barry-333288284/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BP%2BbOZbM9QwCkyPoYBv9k3g%3D%3D), [Thomas Segal](https://www.linkedin.com/in/thomas-segal-093370369) 
 
 
 ## Introduction
