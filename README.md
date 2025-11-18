@@ -161,7 +161,7 @@ _Where is further research needed?_
        width="120" height="120"/>
 </p>
 
-- [Thierno Barry](https://www.linkedin.com/in/thierno-barry-333288284/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BP%2BbOZbM9QwCkyPoYBv9k3g%3D%3D)  
+- [Thierno Barry_](https://www.linkedin.com/in/thierno-barry-333288284/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BP%2BbOZbM9QwCkyPoYBv9k3g%3D%3D)  
 - [Thomas Segal](https://www.linkedin.com/in/thomas-segal-093370369)  
 - [Ayema Qureshi](https://www.linkedin.com/in/ayema-qureshi-901287187)  
 
